@@ -1,0 +1,118 @@
+---
+import { getCollection } from 'astro:content';
+
+const posts = await getCollection('writing', ({ data }) => !data.draft);
+const sortedPosts = posts.sort((a, b) => new Date(b.data.date).getTime() - new Date(a.data.date).getTime());
+---
+
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+		<meta name="viewport" content="width=device-width" />
+		<title>Writing / Jared Henriques</title>
+		<style>
+			* {
+				margin: 0;
+				padding: 0;
+				box-sizing: border-box;
+			}
+
+			html {
+				font-size: 18px;
+			}
+
+			body {
+				font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+				line-height: 1.7;
+				color: #1a1a1a;
+				background: #fafafa;
+				min-height: 100vh;
+				padding: 4rem 2rem;
+			}
+
+			main {
+				max-width: 600px;
+				margin: 0 auto;
+			}
+
+			h1 {
+				font-size: 1.1rem;
+				font-weight: 600;
+				margin-bottom: 0.5rem;
+			}
+
+			.intro {
+				color: #666;
+				margin-bottom: 2.5rem;
+				font-size: 0.95rem;
+			}
+
+			.posts {
+				list-style: none;
+			}
+
+			.posts li {
+				margin-bottom: 1.5rem;
+			}
+
+			.posts a {
+				color: #1a1a1a;
+				text-decoration: none;
+			}
+
+			.posts a:hover {
+				text-decoration: underline;
+			}
+
+			.posts .date {
+				color: #888;
+				font-size: 0.85rem;
+				display: block;
+				margin-top: 0.25rem;
+			}
+
+			.empty {
+				color: #666;
+				font-style: italic;
+			}
+
+			.back {
+				margin-top: 3rem;
+			}
+
+			.back a {
+				color: #666;
+				text-decoration: none;
+				font-size: 0.9rem;
+			}
+
+			.back a:hover {
+				color: #1a1a1a;
+			}
+		</style>
+	</head>
+	<body>
+		<main>
+			<h1>Writing</h1>
+			<p class="intro">Thinking out loud. No pressure, no performance.</p>
+
+			{sortedPosts.length > 0 ? (
+				<ul class="posts">
+					{sortedPosts.map((post) => (
+						<li>
+							<a href={`/writing/${post.id}`}>{post.data.title}</a>
+							<span class="date">{post.data.date}</span>
+						</li>
+					))}
+				</ul>
+			) : (
+				<p class="empty">Nothing here yet.</p>
+			)}
+
+			<div class="back">
+				<a href="/">← Back</a>
+			</div>
+		</main>
+	</body>
+</html>

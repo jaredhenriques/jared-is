@@ -1,0 +1,132 @@
+---
+import { getCollection, render } from 'astro:content';
+
+export async function getStaticPaths() {
+  const posts = await getCollection('writing');
+  return posts.map((post) => ({
+    params: { id: post.id },
+    props: { post },
+  }));
+}
+
+const { post } = Astro.props;
+const { Content } = await render(post);
+---
+
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+		<meta name="viewport" content="width=device-width" />
+		<title>{post.data.title} / Jared Henriques</title>
+		<style>
+			* {
+				margin: 0;
+				padding: 0;
+				box-sizing: border-box;
+			}
+
+			html {
+				font-size: 18px;
+			}
+
+			body {
+				font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+				line-height: 1.7;
+				color: #1a1a1a;
+				background: #fafafa;
+				min-height: 100vh;
+				padding: 4rem 2rem;
+			}
+
+			main {
+				max-width: 600px;
+				margin: 0 auto;
+			}
+
+			header {
+				margin-bottom: 2rem;
+			}
+
+			h1 {
+				font-size: 1.5rem;
+				font-weight: 600;
+				margin-bottom: 0.5rem;
+				line-height: 1.3;
+			}
+
+			.date {
+				color: #888;
+				font-size: 0.9rem;
+			}
+
+			article {
+				color: #333;
+			}
+
+			article p {
+				margin-bottom: 1.25rem;
+			}
+
+			article h2 {
+				font-size: 1.1rem;
+				font-weight: 600;
+				margin-top: 2rem;
+				margin-bottom: 0.75rem;
+			}
+
+			article a {
+				color: #1a1a1a;
+			}
+
+			article ul, article ol {
+				margin-bottom: 1.25rem;
+				padding-left: 1.5rem;
+			}
+
+			article li {
+				margin-bottom: 0.5rem;
+			}
+
+			article blockquote {
+				border-left: 2px solid #ddd;
+				padding-left: 1rem;
+				margin: 1.5rem 0;
+				color: #666;
+				font-style: italic;
+			}
+
+			.back {
+				margin-top: 3rem;
+				padding-top: 2rem;
+				border-top: 1px solid #eee;
+			}
+
+			.back a {
+				color: #666;
+				text-decoration: none;
+				font-size: 0.9rem;
+			}
+
+			.back a:hover {
+				color: #1a1a1a;
+			}
+		</style>
+	</head>
+	<body>
+		<main>
+			<header>
+				<h1>{post.data.title}</h1>
+				<span class="date">{post.data.date}</span>
+			</header>
+
+			<article>
+				<Content />
+			</article>
+
+			<div class="back">
+				<a href="/writing">← All writing</a>
+			</div>
+		</main>
+	</body>
+</html>
