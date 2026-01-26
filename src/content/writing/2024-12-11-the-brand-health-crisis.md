@@ -3,7 +3,9 @@ title: "The Brand Health Crisis: Why Growing Companies Lose Their Way"
 date: "2024-12-11"
 ---
 
-![Brand Clarity Crisis](/images/brand-clarity-cover.png)
+<figure>
+  <img src="/images/brand-clarity-cover.png" alt="Brand Clarity Crisis">
+</figure>
 
 Remember when explaining your company's value felt effortless? That clarity typically deteriorates as organizations scale, becoming buried under operational demands and marketing metrics rather than remaining a guiding force.
 
@@ -19,19 +21,28 @@ I see three common brand challenges in growing companies:
 
 I developed the Brand Health Matrix to evaluate companies across two dimensions: Brand Clarity (how well you understand and articulate who you are) and Market Impact (how effectively that clarity translates to results).
 
-![Brand Health Matrix](/images/brand-health-matrix-1.jpeg)
+<figure>
+  <img src="/images/brand-health-matrix-1.jpeg" alt="Brand Health Matrix">
+  <figcaption>The Brand Health Matrix: plotting clarity against market impact</figcaption>
+</figure>
 
 ## Four Brand States
 
 **Dormant Potential** — Strong clarity but limited market presence. Common in early-stage ventures that know who they are but haven't yet figured out how to reach their audience.
 
-![Dormant Potential](/images/brand-health-matrix-2.jpeg)
+<figure>
+  <img src="/images/brand-health-matrix-2.jpeg" alt="Dormant Potential quadrant">
+  <figcaption>Dormant Potential: high clarity, low market impact</figcaption>
+</figure>
 
 **Purpose-Led Growth** — The ideal state. Clarity and market presence aligned. Decisions feel natural because everyone understands what the brand stands for.
 
 **Market-Led Reactivity** — Gaining presence while losing identity. You're growing, but through external pressures rather than internal conviction. This is where most scaling companies end up.
 
-![Market-Led Reactivity](/images/brand-health-matrix-3.jpeg)
+<figure>
+  <img src="/images/brand-health-matrix-3.jpeg" alt="Market-Led Reactivity quadrant">
+  <figcaption>Market-Led Reactivity: growing, but losing your identity in the process</figcaption>
+</figure>
 
 **Identity Crisis** — Both clarity and impact have deteriorated. The company has lost its way and struggles to articulate why it exists.
 
@@ -42,7 +53,10 @@ Two primary pressures pull companies toward reactivity:
 1. **Competitive dynamics** — Reacting to what competitors do rather than leading with your own perspective
 2. **Short-term revenue targets** — Prioritizing immediate wins over long-term consistency
 
-![Forces Driving Brand Drift](/images/brand-health-matrix-4.jpeg)
+<figure>
+  <img src="/images/brand-health-matrix-4.jpeg" alt="Forces driving brand drift">
+  <figcaption>The forces that pull companies away from clarity toward reactivity</figcaption>
+</figure>
 
 ## Investment in Clarity
 

@@ -160,10 +160,27 @@ function formatDate(dateStr: string) {
 			}
 
 			article img {
+				display: block;
+				width: 100%;
 				max-width: 100%;
 				height: auto;
-				margin: 1.5rem 0;
+				margin: 2rem 0 0.5rem;
 				border-radius: 4px;
+			}
+
+			article figure {
+				margin: 2rem 0;
+			}
+
+			article figure img {
+				margin: 0 0 0.5rem;
+			}
+
+			article figcaption {
+				font-size: 0.85rem;
+				color: #8a8a8a;
+				font-style: italic;
+				margin-bottom: 1.5rem;
 			}
 
 			.back {
@@ -235,6 +252,10 @@ function formatDate(dateStr: string) {
 
 				article hr {
 					border-top-color: #2a2928;
+				}
+
+				article figcaption {
+					color: #7a7570;
 				}
 
 				.date {
