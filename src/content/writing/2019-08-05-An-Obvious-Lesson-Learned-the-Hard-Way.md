@@ -22,24 +22,9 @@ After doing a workshop with us, he felt clear about his brand’s personality an
 
 When our designer took these three themes and the source material on our mood board magic quickly happened. Within a day he came back to me with three stylescapes of these directions.
 
-Rustic Antique Shop
-![]({{site.baseurl}}/images/posts/Burrow-Stylescape-02-Rustic-Antique-Shop.jpg)
-
-Artisan Butcher
-![]({{site.baseurl}}/images/posts/Burrow-Stylescape-03-Artisan-Butcher.jpg)
-
-Clean Scandinavian
-![]({{site.baseurl}}/images/posts/Burrow-Stylescape-01-Clean-Scandanavian.jpg)
-
-
 I was blown away by how quickly he was able to capture the three visual directions and pair them with colours and typefaces that told a cohesive story. With some minor tweaks we could now present these three visual concepts to Evan and have a much more narrowed sandbox at which to explore identity systems in.
 
 When Evan saw these he was immediately drawn to one, as we dove deep we started to find elements that he didn’t resonate with and others that he did amongst all three and refined his top selection to get a final approved stylescape.
-
-Here is the refined stylescape bringing in the other elements he enjoyed
-
-![]({{site.baseurl}}/images/posts/19-06-27-Burrow-Barbering-Stylescapes-C.jpg)
-
 
 The speed at which we were able to get into the client’s brain and extract many interesting visual preferences while still bringing it back to the brand had removed much of the trial and error that we experienced in the lost clients process. We were able to deliver results that Evan was extremely excited about and create with much more purpose and direction.
 

@@ -23,4 +23,3 @@ Today it’s a place you go to exchange a lifetime of debt for credit hours, a d
 
 It is strange for an institution to dictate the terms of their “product”. It doesn’t make too much sense to me that if you fail the course you have to pay to take it again. The same material being taught taking up more time. You don’t even have the option to retake the exam or redo an assignment you failed. You pay for the oppourtunity to get it all right first shot. if you don’t you need to pay again and take the same amount of time as if you haven’t done it once already.
 
-![](20140501-IMG_4819-06feabe5-aecc-40f2-80b8-6136b25c3a94.jpg)

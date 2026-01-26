@@ -6,7 +6,6 @@ date: "2015-09-14"
 
 The other day I read an essay by Frank Chimero called [What Screens Want](http://frankchimero.com/writing/what-screens-want/) and there is part where he links to a *West Wing* clip explaining how our world map isn't correct. Yes, it is correct init's purpose which was to give a picture or naval routes. In order to accomplish accuracy for naval routes something needed to be sacrificed, the size and proportions of land. Below is the traditional world map in black outline and the Peters Projection map which is supposed to be more accurate in displaying the scale of the land masses.
 
-![](-ecc33df1-3cd3-4e15-a704-e4cdb56aa3e3untitled)
 
 This was something I couldn't stop thinking about for days and I wasn't really sure why it felt like such a big deal to me until the other day. The other day I realized that this meant so much to me because it seemed to capture a feeling that I have had for a long time.
 
