@@ -46,13 +46,28 @@ function formatDate(dateStr: string) {
 				color: #2c2c2c;
 				background: #f8f6f3;
 				min-height: 100vh;
-				padding: 6rem 2rem 4rem;
+				padding: 2rem 2rem 4rem;
 				transition: background 0.3s, color 0.3s;
 			}
 
 			main {
 				max-width: 600px;
 				margin: 0 auto;
+			}
+
+			.site-header {
+				margin-bottom: 3rem;
+			}
+
+			.site-header a {
+				color: #8a8a8a;
+				text-decoration: none;
+				font-size: 0.9rem;
+				transition: color 0.2s;
+			}
+
+			.site-header a:hover {
+				color: #c45d3a;
 			}
 
 			.intro {
@@ -120,7 +135,7 @@ function formatDate(dateStr: string) {
 					font-size: 17px;
 				}
 				body {
-					padding: 4rem 1.5rem 3rem;
+					padding: 1.5rem 1.5rem 3rem;
 				}
 				.post {
 					flex-direction: column;
@@ -137,6 +152,14 @@ function formatDate(dateStr: string) {
 				body {
 					background: #1a1918;
 					color: #e8e4dc;
+				}
+
+				.site-header a {
+					color: #7a7570;
+				}
+
+				.site-header a:hover {
+					color: #e89b7b;
 				}
 
 				.intro p {
@@ -167,6 +190,10 @@ function formatDate(dateStr: string) {
 	</head>
 	<body>
 		<main>
+			<nav class="site-header">
+				<a href="/">Jared Henriques</a>
+			</nav>
+
 			<section class="intro">
 				<p>I infrequently write some things.</p>
 			</section>
