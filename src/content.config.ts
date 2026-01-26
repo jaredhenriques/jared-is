@@ -5,7 +5,7 @@ const writing = defineCollection({
   loader: glob({ pattern: '**/*.md', base: './src/content/writing' }),
   schema: z.object({
     title: z.string(),
-    date: z.string(),
+    date: z.coerce.string(),
     draft: z.boolean().optional().default(false),
   }),
 });
