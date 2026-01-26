@@ -1,0 +1,24 @@
+---
+title: "What We Choose Not To Know"
+date: "2014-05-12"
+---
+
+# What We Choose Not To Know
+
+Throughout the time Pocket Change manufactured in Canada, I had many people ask why we had decided to do so, given it costs so much more. My quick simple answer was "We have committed to manufacturing with integrity and it is a lot easier for us to monitor the factories practices when I can drive 20 mins and check it out myself." There were a few people who would ask the question "Aren't you taking jobs away from the people that really need them?" This is a very fair question and I thought that I would address it here.
+
+In an ideal world I would set up a factory in a developing country and provide jobs that pay fairly and have an overall positive impact on the community in which it is located. Unfortunately that is not within my means so we decided to manufacture here. To provide work to the factories that exploit their employees with the logic of; "at least now they have a job" is ridiculous and just supporting the race to the bottom in manufacturing. We need to call these product based industries to a higher standard. I'm not saying pull manufacturing out of China at all but call China to a higher standard of work.
+
+As a society we play the ignorant card when it comes to work conditions of the products we buy and to quote Peter Rollins, who is potentially quoting someone else "the most dangerous knowledge is not what we don't know, rather what we chose not to know." I think this is very true of our society with this specific issue and likely many more involving social justice. I am getting sick of the excuse and think that we all need to take more responsibility with what we buy.
+
+Some friends and I have talked a lot about the idea of starting a website that highlights companies that make products ethically. We want to highlight the stories of the individuals involved in the manufacturing process on both ends so that people can see the individuals that we indirectly exploit when we buy that certain type of chocolate or wear that tshirt that we got at a great price. We understand people are numb to outrageous statistics, so we want to make it personal so that it sinks in. The name of this site will be [ethicscost.com](http://ethicscost.com/). The reason for the name is that we are not going to pretend you can get all your products made ethically and for the same price, that is ridiculous. It will cost more to make things ethically, which is why it is so hard to practice.
+
+Unless we call these companies to a higher standard and show them that we are done with this exploitation and prove it through our purchasing decisions, the companies that are committed to practicing ethical manufacturing will have a hard time surviving.This was a factor in the closing of Pocket Change, the customers and shops found our prices to be too much and so they wouldn't purchase. I hated charging as much as we did for a t-shirt because I understand in comparison to the competition it was outrageous. The fact of the matter is it cost us almost as much as some companies charge after their 400% mark up. We couldn't compete with our price and it just became to expensive for us to keep trying. I am not saying this for a pity party but to emphasize the importance our buying decisions have. When we choose the cheaper product we are agreeing that the couple bucks we save is worth taking advantages of hundreds of thousands.
+
+When I see fellow humans being abused and forced into financial poverty by those in spiritual and emotional poverty it is incredibly saddening. While talking about this post with my economic wizard friend Dan he beautifully said;
+
+"Problem is, most people are out for themselves. They feel the need to get as much stuff as they possibly can, so that people will love and adore them. This, all the while, not realizing they were made to maximize utility through love, generosity, compassion. It's poetic justice, because the people who don't care about money are the happiest in all the 'metrics' that count."
+
+I think that is it. This post isn't meant to say keep buying a bunch of stuff just make sure that the stuff is made ethically, but rather look at what the stuff we have is saying we believe in. I want to commit to be a person who tries to maximize love, generosity and compassion in all things that I do. The reality is that we can be supporting the exact opposite without realizing through the things we purchase. If you are reading this you quick likely know me personally and I am asking that you would keep me accountable in this pursuit to look into what I buy more and I also ask that you participate with me. I would love to work with all of you on building a resource of companies and products that decided to think about the human receiving and making the product.
+
+Join me, let's be a people who care about our global community and ask that others do as well.

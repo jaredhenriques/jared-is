@@ -1,0 +1,17 @@
+---
+title: "Getting Out Of My Head"
+published: true
+date: "2020-02-10"
+---
+
+Today I started a new rhythm. Last week I did 1on1s for the first time in Renga's history. The goal of these meetings are to check in on the people working with me and see where they are at. We speak every day about projects and tasks that we often forget to take the time and speak to each other as humans. To see how they are feeling about the job, what do they want to do more of, what do they want to do less of. I was blown away by how valuable of a day that was. Not only was it valuable to get to know the people within the company better but it taught me a lot about myself and revealed some very obvious improvements that I can make in my job. 
+
+One of the main ones is to share more. My whole life I have been notorious for doing a lot of the work in my head. My high school math department used to laugh at me as I would often get near perfect on a math test but they would give me a failing grade on communication. I seemingly had an allergy to showing my work. If it felt like it was wasting my time I didn't bother. Why write down all the steps if I don't need to. This seemed to work well for the first two years of Renga, where I was managing multiple clients and jobs on my own. I was involved in everything so it was fine for it to live in my head. Over the thirteen months I have hired 5 people and my job is much different than it was 13 months ago. We have multiple times gotten in trouble because my brain and email inbox is the keeper of all tasks, updates and deadlines. This is not an ideal situation. We have started to have a daily standup as a way of getting all project related information out of my head and it's been extremely helpful. However I have continued to hold and shoulder all of the internal projects and admin tasks of running the business. 
+
+During my 1on1 with one of my team members he mentioned that he played the bus game and was worried. Curious I asked what this bus game was, and I then found out that it is playing through the hypothetical scenario of if I got hit by a bus today, would the company be able to survive. He was not confident that this was the case. As morbid as this was, I agreed that it was something we needed to address. 
+
+I think a common reason for holding onto all of these tasks as a business owner is because I may not trust others to do a job as well as I, but I can honestly say that this wasn't the case. I don't know if it's some weird paternal instinct to protect others from unnecessary burdens or exactly how to phrase it, but it sort of felt like, I know that this wouldn't be fun, so it's my job. The issue is that this is putting a lot of stress on me and stopping me from being able to be my most effective. 
+
+Today was the first day that this bus dreaming employee and I sat down for a new weekly routine. The sole purpose of this meeting is for me to dump everything out of my head that I am thinking about or wanting to get done this week. We talked about a long list of items that continued to grow as we chatted, and I feel a lot lighter today. I feel like I have someone to help share the burden and together we are able to assign certain problems and projects to the most capable team member. 
+
+The 1on1s showed me that I need to share more and get a lot better at asking for help. Others want to participate in building something they believe in and they are also willing to do the grunt work because they know how it can help the whole. You just need to be willing to share.

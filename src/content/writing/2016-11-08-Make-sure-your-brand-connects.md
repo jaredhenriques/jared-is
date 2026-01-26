@@ -1,0 +1,21 @@
+---
+title: "Make Sure Your Brand Connects"
+published: true
+date: "2016-11-08"
+---
+
+Consumers have an unlimited amount of choice when making a purchasing decision that it is vital to establish connection with your true fans. The one thing that is clear of millennials is that they can sense insincere marketing immediately. They are very quick to tell when someone is "posing" a certain way. This makes a maintaining consistency in a brand's voice and values so important. Across all channels people need to see that you are truly the brand for them. You need to treat your brand as a person.
+
+This might throw you off immediately, but bear with me. We all admire people who are authentic, people who you can tell are real. Generally these people will have a good amount of self awareness, and a value system to check themselves back to. This is incredibly important for a brand to have as well. All brands (including personal brands) need to maintain the same personality. This isn't to say that the language, tone and medium need to be concrete, that's silly. Just as people develop, grow and evolve, brands do as well. What needs to remain true through this development is the core values and main personality traits.
+
+Several years ago Old Spice released a commercial "The Man Your Man Could Smell Like"(https://www.youtube.com/watch?v=owGykVbfgUE). It was a hit, it was brilliant and did wonders for their brand. So many marketers admired and we know that everyone's next Monday meeting was filled with "What can our gimmick be?". You saw so many companies try similar ads filled with randomness and an unusual character. Some of them also worked, but many of them were seen for exactly what they were, a rip-off of the Old Spice commercial. Brands that had no business playing in the funny quirky space were trying to do so because they saw how well this worked for Old Spice. This is where it becomes so important to have your personality defined.
+
+A while back, I had met a very bright entrepreneur who was putting together an incredible conference about disruptive innovation. She confessed that they were having a hard time figuring out how to market the conference and started to list some standard marketing tactics they were thinking. She wasn't getting the traction she was hoping for. I asked the simple question “What is the personality of this conference?”. She listed the personality as bold, disruptive and innovative. You could see immediately in her eyes that it clicked. The methods that her team was attempting were not bold, disruptive or innovative, they were rather ordinary.
+
+Don’t apologize for how you market if that is who you are. You need to be recruiting advocates that love who you truly are. These advocates are the ones that are in for the long haul and will help spread the word. If there aren't enough in this camp to make the business sustainable, then it may be a time to rethink your personality and approach entirely, but it cannot be done for every campaign. If your business model is to cater to the masses then your marketing and brand personality need to match that.
+
+It is never worth losing life long advocates for a quick/ cheap transaction with a new consumer. People crave authenticity and consistency. It's what builds trust. If your point of difference from the competition is how you operate your business, then the way you approach marketing and any facet needs to be reflective of that core. Just like the entrepreneur running the conference needed to market in a bold, disruptive and innovative way to attract people looking for a conference about disruptive innovation. Sure, she will lose the risk-averse and late adopters, but is this conference for them anyway?
+
+So how do you define your brands personality? It may seem strange but you need to write out the life story of a person, male or female? How old is she? What does she do? What would her friends say about her? What is her occupation? What music does she listen to? What clothes does she where? What was she like in high-school? You will likely be able to build this person in a relatively short amount of time.
+
+This will give you something to check your decisions back on. It will help provide direction, help you whether market change. Allow you to ask, how would Jason (our brand) handle this pivot?
