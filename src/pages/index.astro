@@ -40,6 +40,7 @@
 				align-items: center;
 				justify-content: center;
 				padding: 2rem;
+				transition: background 0.3s, color 0.3s;
 			}
 
 			main {
@@ -48,24 +49,30 @@
 			}
 
 			.bio {
-				margin-bottom: 2.5rem;
-			}
-
-			.bio h1 {
-				font-size: 1.1rem;
-				font-weight: normal;
-				margin-bottom: 1.25rem;
+				margin-bottom: 2rem;
 			}
 
 			.bio p {
 				margin-bottom: 0.75rem;
-				color: #3d3d3d;
+			}
+
+			.bio a,
+			.bio a:visited,
+			.bio a:link {
+				color: inherit;
+				text-decoration: none;
+				transition: color 0.2s;
+			}
+
+			.bio a:hover {
+				color: #c45d3a;
+				text-decoration: none;
 			}
 
 			.bio .tagline {
 				font-style: italic;
 				color: #6b6b6b;
-				margin-top: 1.25rem;
+				margin-top: 1rem;
 				margin-bottom: 0;
 			}
 
@@ -77,29 +84,54 @@
 
 			.links a {
 				color: #6b6b6b;
-				text-decoration: none;
-				font-size: 0.95rem;
+				text-decoration: underline;
+				text-underline-offset: 3px;
+				font-size: 0.9rem;
 				transition: color 0.2s;
 			}
 
 			.links a:hover {
-				color: #2c2c2c;
+				color: #c45d3a;
+			}
+
+			/* Dark mode */
+			@media (prefers-color-scheme: dark) {
+				body {
+					background: #1a1918;
+					color: #e8e4dc;
+				}
+
+				.bio a:hover {
+					color: #e89b7b;
+				}
+
+				.bio .tagline {
+					color: #9a9590;
+				}
+
+				.links a {
+					color: #9a9590;
+				}
+
+				.links a:hover {
+					color: #e89b7b;
+				}
 			}
 		</style>
 	</head>
 	<body>
 		<main>
 			<section class="bio">
-				<h1>Hey, I'm Jared Henriques.</h1>
-				<p>I ran a branding studio, now I'm at Measure.</p>
+				<p>Hey, I'm Jared Henriques.</p>
+				<p>I ran a <a href="https://renga.co" target="_blank">branding studio</a>, now I'm at <a href="https://maplebilling.com" target="_blank">Measure</a>.</p>
 				<p>Moved to Victoria, BC with my wife and two kids. Thinking about raising a family and building things in an era where everything's shifting.</p>
 				<p class="tagline">Be a good human. Do good work. Make things better.</p>
 			</section>
 
 			<nav class="links">
-				<a href="https://twitter.com/jaredhenriques" target="_blank">Twitter</a>
+				<a href="https://x.com/jaredhenriques" target="_blank">Twitter</a>
 				<a href="https://linkedin.com/in/jaredhenriques" target="_blank">LinkedIn</a>
-				<a href="mailto:hello@jared.is">Email</a>
+				<a href="mailto:hey@jared.is">Email</a>
 			</nav>
 		</main>
 	</body>
