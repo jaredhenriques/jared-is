@@ -38,89 +38,114 @@ const sortedPosts = posts.sort((a, b) => new Date(b.data.date).getTime() - new D
 				background: #f8f6f3;
 				min-height: 100vh;
 				padding: 4rem 2rem;
+				transition: background 0.3s, color 0.3s;
 			}
 
 			main {
-				max-width: 600px;
+				max-width: 480px;
 				margin: 0 auto;
 			}
 
-			h1 {
-				font-size: 1.1rem;
-				font-weight: normal;
-				margin-bottom: 0.5rem;
+			.intro {
+				margin-bottom: 3rem;
 			}
 
-			.intro {
+			.intro p {
 				color: #6b6b6b;
-				margin-bottom: 2.5rem;
-				font-size: 0.95rem;
+				font-style: italic;
 			}
 
 			.posts {
 				list-style: none;
 			}
 
-			.posts li {
+			.post {
 				margin-bottom: 1.5rem;
 			}
 
-			.posts a {
-				color: #2c2c2c;
+			.post a {
+				color: inherit;
 				text-decoration: none;
+				transition: color 0.2s;
 			}
 
-			.posts a:hover {
-				text-decoration: underline;
+			.post a:hover {
+				color: #c45d3a;
 			}
 
-			.posts .date {
+			.post .date {
 				color: #8a8a8a;
 				font-size: 0.85rem;
-				display: block;
-				margin-top: 0.25rem;
-			}
-
-			.empty {
-				color: #6b6b6b;
-				font-style: italic;
+				margin-right: 0.75rem;
 			}
 
 			.back {
 				margin-top: 3rem;
+				padding-top: 2rem;
+				border-top: 1px solid #e8e4dc;
 			}
 
 			.back a {
 				color: #6b6b6b;
 				text-decoration: none;
 				font-size: 0.9rem;
+				transition: color 0.2s;
 			}
 
 			.back a:hover {
-				color: #2c2c2c;
+				color: #c45d3a;
+			}
+
+			/* Dark mode */
+			@media (prefers-color-scheme: dark) {
+				body {
+					background: #1a1918;
+					color: #e8e4dc;
+				}
+
+				.intro p {
+					color: #9a9590;
+				}
+
+				.post a:hover {
+					color: #e89b7b;
+				}
+
+				.post .date {
+					color: #7a7570;
+				}
+
+				.back {
+					border-top-color: #2a2928;
+				}
+
+				.back a {
+					color: #9a9590;
+				}
+
+				.back a:hover {
+					color: #e89b7b;
+				}
 			}
 		</style>
 	</head>
 	<body>
 		<main>
-			<h1>Writing</h1>
-			<p class="intro">Thinking out loud. No pressure, no performance.</p>
+			<section class="intro">
+				<p>I infrequently write some things.</p>
+			</section>
 
-			{sortedPosts.length > 0 ? (
-				<ul class="posts">
-					{sortedPosts.map((post) => (
-						<li>
-							<a href={`/writing/${post.id}`}>{post.data.title}</a>
-							<span class="date">{post.data.date}</span>
-						</li>
-					))}
-				</ul>
-			) : (
-				<p class="empty">Nothing here yet.</p>
-			)}
+			<ul class="posts">
+				{sortedPosts.map((post) => (
+					<li class="post">
+						<span class="date">{post.data.date}</span>
+						<a href={`/writing/${post.id}`}>{post.data.title}</a>
+					</li>
+				))}
+			</ul>
 
 			<div class="back">
-				<a href="/">← Back</a>
+				<a href="/">← Home</a>
 			</div>
 		</main>
 	</body>

@@ -46,6 +46,7 @@ const { Content } = await render(post);
 				background: #f8f6f3;
 				min-height: 100vh;
 				padding: 4rem 2rem;
+				transition: background 0.3s, color 0.3s;
 			}
 
 			main {
@@ -54,14 +55,14 @@ const { Content } = await render(post);
 			}
 
 			header {
-				margin-bottom: 2rem;
+				margin-bottom: 2.5rem;
 			}
 
 			h1 {
-				font-size: 1.5rem;
+				font-size: 1.4rem;
 				font-weight: normal;
 				margin-bottom: 0.5rem;
-				line-height: 1.3;
+				line-height: 1.4;
 			}
 
 			.date {
@@ -80,12 +81,30 @@ const { Content } = await render(post);
 			article h2 {
 				font-size: 1.1rem;
 				font-weight: normal;
-				margin-top: 2rem;
+				margin-top: 2.5rem;
 				margin-bottom: 0.75rem;
+				color: #2c2c2c;
 			}
 
-			article a {
+			article h3 {
+				font-size: 1rem;
+				font-weight: normal;
+				margin-top: 2rem;
+				margin-bottom: 0.5rem;
 				color: #2c2c2c;
+			}
+
+			article a,
+			article a:visited,
+			article a:link {
+				color: inherit;
+				text-decoration: underline;
+				text-underline-offset: 2px;
+				transition: color 0.2s;
+			}
+
+			article a:hover {
+				color: #c45d3a;
 			}
 
 			article ul, article ol {
@@ -99,10 +118,21 @@ const { Content } = await render(post);
 
 			article blockquote {
 				border-left: 2px solid #d4d0c8;
-				padding-left: 1rem;
+				padding-left: 1.25rem;
 				margin: 1.5rem 0;
 				color: #6b6b6b;
 				font-style: italic;
+			}
+
+			article strong {
+				font-weight: normal;
+				color: #1a1a1a;
+			}
+
+			article hr {
+				border: none;
+				border-top: 1px solid #e8e4dc;
+				margin: 2.5rem 0;
 			}
 
 			.back {
@@ -115,10 +145,61 @@ const { Content } = await render(post);
 				color: #6b6b6b;
 				text-decoration: none;
 				font-size: 0.9rem;
+				transition: color 0.2s;
 			}
 
 			.back a:hover {
-				color: #2c2c2c;
+				color: #c45d3a;
+			}
+
+			/* Dark mode */
+			@media (prefers-color-scheme: dark) {
+				body {
+					background: #1a1918;
+					color: #e8e4dc;
+				}
+
+				article {
+					color: #d0ccc4;
+				}
+
+				article h2,
+				article h3 {
+					color: #e8e4dc;
+				}
+
+				article strong {
+					color: #f0ece4;
+				}
+
+				article a:hover {
+					color: #e89b7b;
+				}
+
+				article blockquote {
+					border-left-color: #3a3938;
+					color: #9a9590;
+				}
+
+				article hr {
+					border-top-color: #2a2928;
+				}
+
+				.date {
+					color: #7a7570;
+				}
+
+				.back {
+					border-top-color: #2a2928;
+				}
+
+				.back a {
+					color: #9a9590;
+				}
+
+				.back a:hover {
+					color: #e89b7b;
+				}
 			}
 		</style>
 	</head>
