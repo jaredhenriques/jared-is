@@ -30,10 +30,19 @@ function formatDate(dateStr: string) {
 		<title>{post.data.title} / Jared Henriques</title>
 		<style>
 			@font-face {
-				font-family: 'Reader';
-				src: url('/fonts/reader-regular.woff2') format('woff2'),
-					 url('/fonts/reader-regular.woff') format('woff');
+				font-family: 'Apercu';
+				src: url('/fonts/apercu-regular.woff2') format('woff2'),
+					 url('/fonts/apercu-regular.woff') format('woff');
 				font-weight: normal;
+				font-style: normal;
+				font-display: swap;
+			}
+
+			@font-face {
+				font-family: 'Apercu';
+				src: url('/fonts/apercu-medium.woff2') format('woff2'),
+					 url('/fonts/apercu-medium.woff') format('woff');
+				font-weight: 500;
 				font-style: normal;
 				font-display: swap;
 			}
@@ -49,7 +58,7 @@ function formatDate(dateStr: string) {
 			}
 
 			body {
-				font-family: 'Reader', Georgia, serif;
+				font-family: 'Apercu', -apple-system, sans-serif;
 				line-height: 1.75;
 				color: #2c2c2c;
 				background: #f8f6f3;
