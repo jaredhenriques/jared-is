@@ -56,13 +56,14 @@ function formatDate(dateStr: string) {
 			}
 
 			.site-header {
-				margin-bottom: 3rem;
+				margin-bottom: 4rem;
 			}
 
 			.site-header a {
 				color: #8a8a8a;
 				text-decoration: none;
-				font-size: 0.9rem;
+				font-size: 0.875rem;
+				letter-spacing: 0.01em;
 				transition: color 0.2s;
 			}
 
@@ -133,6 +134,9 @@ function formatDate(dateStr: string) {
 			@media (max-width: 600px) {
 				html {
 					font-size: 17px;
+				}
+				.site-header {
+					margin-bottom: 3rem;
 				}
 				.post {
 					flex-direction: column;
